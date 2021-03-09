@@ -1,0 +1,122 @@
+
+html {
+	background-color:#FFFFDF;
+	box-sizing: border-box;
+}
+
+*,*:before,*:after {
+	box-sizing: inherit
+}
+
+body {
+	font-family: Hanzipen SC, sans-serif;
+	font-size: 87%;
+
+}
+
+.container {
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFF;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+/* Header Style */
+.header {
+	padding-top: 20px;
+	color:	#005AB5;
+}
+
+.header-title {
+	margin: 0;
+	font-weight: normal;
+	font-size: 165%;
+}
+
+.header-slogan {
+	margin: 0;
+}
+
+/* Navitation Bar Style */
+.nav {
+	margin-top: 20px;
+	position: relative;
+}
+
+.nav-list {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-sublist {
+	position: absolute;
+	background-color: #ECF5FF;
+	margin: 0;
+	padding: 0;
+    display: none;
+}
+
+.nav-list-item {
+	list-style: none;
+	margin-right: 5px;
+}
+
+.nav-list-item-link {
+	display: block;
+	color: 	#005AB5;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 3px solid #C4E1FF;
+	border-bottom: none;
+}
+
+.nav-list-item-link:hover {
+	background-color: #D2E9FF;
+}
+
+.nav-list-item:hover > .nav-list-item-link {
+	background-color: #	#ECF5FF;
+}
+
+
+.nav-sublist .nav-list-item-link:hover {
+	background-color: #ECECFF;
+	color: 	#005AB5;
+}
+
+
+
+.nav-list-item:hover .nav-sublist{
+	display: block;
+}
+
+
+/* Content Style */
+.content-area {
+	display: flex;
+	border-top: 3px solid #C4E1FF;
+	border-bottom: 3px solid #C4E1FF;
+}
+
+.main-area {
+	width: 66%;
+	padding-right: 40px;
+}
+
+.sidebar {
+	width: 34%;
+	background-color: #FFECEC;
+	padding: 20px 40px;
+	font-size: 85%;
+}
+
+.footer {
+	text-align: center;
+	font-size: 85%;
+	color: #999;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
