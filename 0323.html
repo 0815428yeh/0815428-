@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" type = "text/css" href ="上課資料夾/css/0323css.css">
+    <script src  = "javascript/0323jquery.js"></script>
+
+	<script type="text/javascript">
+
+    $(document).ready(function(){
+    	$('#hi').css('color', '#5CADAD').css('fontSize', '20px');
+    
+    $('#hi').click(function(){
+        $('#hi').css('fontSize', '100px');
+        });
+    });
+
+    $(document).ready(function(){
+    	$('#hi').css('background', '#B3D9D9');
+    
+    $('#hi').click(function(){
+        $('#hi').css('background', '#D1E9E9');
+        });
+     });
+
+   $(document).ready(function(){
+    $( "div" ).html( "<span class='red'>Hello <b>Again</b></span>");
+    });
+
+    $(document).ready(function(){
+    $("#btn1 ").click(function(){
+    alert("Value: " + $("#test2").val());
+     });
+
+    $("#btn2 ").click(function(){
+    $("#test2").val("DTD");
+    });
+   });
+
+    </script>
+
+</head>
+<body>
+  <div id = "hi">Hi jQuery<img src = "img/pepper.png"></div>
+  	<p id="test">This is some <b>bold</b> text in a paragraph.</p>
+    <button id="btn1">Show Text</button>
+    <button id="btn2">Show HTML</button>
+    <p>Name: <input type="text" id="test2" value="Mickey Mouse"></p>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+</html>
