@@ -3,82 +3,102 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Learning Flex</title>
+	<title>Learning RWD</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-	<div class="container">
-		<header class="header">
-			<h1 class="header-title">Oh My Girl</h1>
-			<p class="header-slogan">오마이걸</p>
-            <nav class="nav">
-              <ul class="nav-list">
-                <li class="nav-list-item">
-                  <a href="#"class="nav-list-item-link">Home</a>
-                </li>
-                <li class="nav-list-item">
-                  <a href="#" class="nav-list-item-link">About</a>
-                  <ul class="nav-sublist">
-                      <li class="nav-list-item"><a href="#" class="nav-list-item-link">Sub Link 1</a></li>
-			          <li class="nav-list-item"><a href="#" class="nav-list-item-link">Sub Link 2</a></li>
-				      <li class="nav-list-item"><a href="#" class="nav-list-item-link">Sub Link 3</a></li>
-					  <li class="nav-list-item"><a href="#" class="nav-list-item-link">Sub Link 4</a></li>
-					  <li class="nav-list-item"><a href="#" class="nav-list-item-link">Sub Link 5</a></li>
-					  <li class="nav-list-item"><a href="#" class="nav-list-item-link">Sub Link 6</a></li>
-				  </ul>
-				</li>
-					<li class="nav-list-item">
-				    <a href="#" class="nav-list-item-link">Portfolio</a>
-					<ul class="nav-sublist">
-						<li class="nav-list-item"><a href="#" class="nav-list-item-link">Portfolio 1</a></li>
-						<li class="nav-list-item"><a href="#" class="nav-list-item-link">Portfolio 2</a></li>
-						<li class="nav-list-item"><a href="#" class="nav-list-item-link">Portfolio 3</a></li>
-						<li class="nav-list-item"><a href="#" class="nav-list-item-link">Portfolio 4</a></li>
-						</ul>
-                </li>
-                <li class="nav-list-item">
-                    <a href="#" class="nav-list-item-link">Portfolioc</a>
-                </li>
-                <li class="nav-list-item">
-        <a href="#" class="nav-list-item-link">Contact Usc</a>
-      </li>
-    </ul>
-  </nav>
-</header>
 
-<body>
-	
-		<div class="content-area">
+	<header class="header section">
+		<div class="container">
+			<h1 class="header__title">Website Title</h1>
+			<p class="header__slogan show-large">Website slogan included here.</p>
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+					<li class="nav__item"><a class="nav__link" href="#">About</a></li>
+					<li class="nav__item"><a class="nav__link" href="#">Portfolio</a></li>
+					<li class="nav__item show-large"><a class="nav__link" href="#">FAQs</a></li>
+					<li class="nav__item show-large"><a class="nav__link" href="#">Links</a></li>
+					<li class="nav__item"><a class="nav__link" href="#">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div><!-- /container -->
+
+	</header>
+
+	<div class="content-area section">
+		<div class="container">
+			<div class="row">
+				<div class="col col-md-8">
+					<h2>Welcome to the page!</h2>
+					<div class="row">
+						<div class="col col-sm-6 col-lg-3">
+							<div class="box-a">
+								<p>Key feature 1</p>
+							</div>
+						</div>
+						<div class="col col-sm-6 col-lg-3">
+							<div class="box-a">
+								<p>Key feature 2</p>
+							</div>
+						</div>
+						<div class="col col-sm-6 col-lg-3">
+							<div class="box-a">
+								<p>Key feature 3</p>
+							</div>
+						</div>
+						<div class="col col-sm-6 col-lg-3">
+							<div class="box-a">
+								<p>Key feature 4</p>
+							</div>
+						</div>
+
+					</div><!-- row -->
+
+					<div class="row">
+
+						<div class="col col-xs-6">
+							<img src="images/bird.jpg">
+						</div><!-- /col -->
+
+						<div class="col col-xs-6">
+							<img src="images/squirrel.jpg">
+						</div><!-- /col -->
+
+					</div><!-- /row -->
 
 
-			<article class="main-area">
-				<p>
-				Oh My Girl（오마이걸）為WM Entertainment在2015年推出的女子團體。</p>
-				<p>最初由8名成員組成，現任成員包括效定、Mimi、YooA、勝熙、祉呼、Binnie及Arin。</p>
-				<p>於2015年4月20日發行首張迷你專輯《OH MY GIRL》。</p>
+				</div>
 
-				<p>並於2015年4月21日在SBS MTV THE SHOW以《Cupid》初舞台正式出道。
-				</p>
-				<img src ="https://cdn2.ettoday.net/images/3579/d3579044.jpg"length = 240 px width = 180 px>
-			</article> <!-- article -->
+				<div class="sidebar col col-md-4">
+					<h3>Sidebar Heading</h3>
+					<p>Sidebar Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+						et
+						dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
 
-			<aside class="sidebar">
-				<p>
-					<b>團名由來</b>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
 
-                  <p>團名由來為經紀公司首度公布的宣傳話題「OMG」。</p>
-                  <p>2015年3月30日，WM Entertainment正式公布新女團的團名為「Oh My Girl」。 </p>
-                  <p>問候語為「찾았다~ 오마이걸! 안녕하세요. 오마이걸입니다.」（找到啦～OH MY GIRL！大家好，我們是OH MY GIRL。）</p>
+					<p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+						aliqua.
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						Lorem
+						ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+				</div>
+			</div><!-- row -->
 
-			</aside><!-- sidebar -->
-		</div>
+		</div><!-- /container -->
 
-		<footer class="footer">
-			<p>찾았다~ 오마이걸! 안녕하세요. 오마이걸입니다.</p>
-		</footer>
-	</div>
+	</div><!-- content-area -->
+	<footer class="footer">
+		<p>&copy; 2018 - This is the footer.</p>
+	</footer>
+
 
 </body>
 
